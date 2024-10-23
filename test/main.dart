@@ -45,6 +45,7 @@ class MyApp extends StatelessWidget {
                   reactions: _reactions,
                   placeholder: _placeHolder,
                   itemSize: const Size.square(24),
+                  onTap: () {},
                 );
               },
             ),

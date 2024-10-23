@@ -7,6 +7,7 @@ import 'package:flutter_reaction_button/src/widgets/reactions_box.dart';
 class ReactionButton<T> extends StatefulWidget {
   const ReactionButton({
     super.key,
+    required this.onTap,
     required this.onReactionChanged,
     required this.reactions,
     this.placeholder,
@@ -27,6 +28,8 @@ class ReactionButton<T> extends StatefulWidget {
     this.child,
     this.direction = ReactionsBoxAlignment.ltr,
   }) : _type = child != null ? ReactionType.container : ReactionType.button;
+
+  final VoidCallback onTap;
 
   /// This triggers when reaction button value changed.
   final ValueChanged<Reaction<T>?> onReactionChanged;
@@ -166,13 +169,14 @@ class _ReactionButtonState<T> extends State<ReactionButton<T>> {
 
     return GestureDetector(
       key: _globalKey,
-      onTap: () {
-        if (widget.toggle) {
-          _onCheck();
-        } else {
-          _onShowReactionsBox();
-        }
-      },
+      onTap: widget.onTap,
+      // onTap: () {
+      //   if (widget.toggle) {
+      //     _onCheck();
+      //   } else {
+      //     _onShowReactionsBox();
+      //   }
+      // },
       onLongPressStart: (details) {
         if (widget.toggle) {
           _onShowReactionsBox(_isContainer ? details.globalPosition : null);
