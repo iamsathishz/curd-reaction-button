@@ -1,8 +1,8 @@
+import 'package:curd_reaction_button/curd_reaction_button.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_reaction_button/flutter_reaction_button.dart';
-import 'package:flutter_reaction_button/src/common/position.dart';
-import 'package:flutter_reaction_button/src/common/position_notifier.dart';
-import 'package:flutter_reaction_button/src/widgets/reactions_box_item.dart';
+import 'package:curd_reaction_button/src/common/position.dart';
+import 'package:curd_reaction_button/src/common/position_notifier.dart';
+import 'package:curd_reaction_button/src/widgets/reactions_box_item.dart';
 
 class ReactionsBox<T> extends StatefulWidget {
   const ReactionsBox({

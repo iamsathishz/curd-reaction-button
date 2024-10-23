@@ -1,5 +1,5 @@
+import 'package:curd_reaction_button/curd_reaction_button.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_reaction_button/flutter_reaction_button.dart';
 
 const Reaction _placeHolder = Reaction(
   value: 0,

@@ -1,5 +1,5 @@
 // import 'package:flutter/material.dart';
-// import 'package:flutter_reaction_button/flutter_reaction_button.dart';
+// import 'package:curd_reaction_button/curd_reaction_button.dart';
 
 // final List<Reaction<String>> flagsReactions = [
 //   Reaction<String>(

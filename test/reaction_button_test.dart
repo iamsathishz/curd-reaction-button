@@ -1,7 +1,7 @@
+import 'package:curd_reaction_button/curd_reaction_button.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_reaction_button/flutter_reaction_button.dart';
-import 'package:flutter_reaction_button/src/widgets/reactions_box.dart';
-import 'package:flutter_reaction_button/src/widgets/reactions_box_item.dart';
+import 'package:curd_reaction_button/src/widgets/reactions_box.dart';
+import 'package:curd_reaction_button/src/widgets/reactions_box_item.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'main.dart';

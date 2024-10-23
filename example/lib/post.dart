@@ -1,6 +1,6 @@
 // import 'package:flutter/material.dart';
-// import 'package:flutter_reaction_button/flutter_reaction_button.dart';
-// import 'package:flutter_reaction_button_test/data.dart' as data;
+// import 'package:curd_reaction_button/curd_reaction_button.dart';
+// import 'package:curd_reaction_button_test/data.dart' as data;
 
 // class PostWidget extends StatelessWidget {
 //   const PostWidget({

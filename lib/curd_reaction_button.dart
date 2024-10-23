@@ -1,4 +1,4 @@
-library flutter_reaction_button;
+library curd_reaction_button;
 
 export 'src/enums/box.dart';
 export 'src/models/reaction.dart';

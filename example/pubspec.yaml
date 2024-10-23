@@ -1,4 +1,4 @@
-name: flutter_reaction_button_test
+name: curd_reaction_button_test
 description: A new Flutter application.
 publish_to: none
 version: 1.0.0+1
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.5
-  flutter_reaction_button:
+  curd_reaction_button:
     path: ../
 
 dev_dependencies:

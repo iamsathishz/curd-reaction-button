@@ -1,8 +1,8 @@
+import 'package:curd_reaction_button/curd_reaction_button.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_reaction_button/flutter_reaction_button.dart';
-import 'package:flutter_reaction_button/src/enums/reaction.dart';
-import 'package:flutter_reaction_button/src/extensions/key.dart';
-import 'package:flutter_reaction_button/src/widgets/reactions_box.dart';
+import 'package:curd_reaction_button/src/enums/reaction.dart';
+import 'package:curd_reaction_button/src/extensions/key.dart';
+import 'package:curd_reaction_button/src/widgets/reactions_box.dart';
 
 class ReactionButton<T> extends StatefulWidget {
   const ReactionButton({

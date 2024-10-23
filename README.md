@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/pub/v/flutter_reaction_button.svg)](https://pub.dartlang.org/packages/flutter_reaction_button)
+[![pub package](https://img.shields.io/pub/v/curd_reaction_button.svg)](https://pub.dartlang.org/packages/curd_reaction_button)
 
 # Flutter reaction button
 
@@ -7,7 +7,7 @@ Flutter Reaction Button is a customizable Flutter package that allows you to eas
 
 ## Screenshot
 
-![App Screenshot](https://raw.githubusercontent.com/GeekAbdelouahed/flutter-reaction-button/master/images/flutter_reaction_button_preview.png)
+![App Screenshot](https://raw.githubusercontent.com/GeekAbdelouahed/flutter-reaction-button/master/images/curd_reaction_button_preview.png)
 
 
 ## Installation
@@ -17,12 +17,12 @@ Flutter Reaction Button is a customizable Flutter package that allows you to eas
 dependencies:
   flutter:
     sdk: flutter
-  flutter_reaction_button: <last-version>
+  curd_reaction_button: <last-version>
 ```
 ## Usage
 
 ```dart
-import 'package:flutter_reaction_button/flutter_reaction_button.dart';
+import 'package:curd_reaction_button/curd_reaction_button.dart';
 
 ReactionButton<String>(
     onReactionChanged: (Reaction<String>? reaction) {

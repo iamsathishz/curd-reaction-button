@@ -1,4 +1,4 @@
-# flutter_reaction_button_example
+# curd_reaction_button_example
 
 ReactionButton:
 
